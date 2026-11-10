@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dancishu-v4';
+const CACHE_NAME = 'dancishu-v8';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-512-maskable.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));

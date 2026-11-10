@@ -1,13 +1,13 @@
 {
   "id": "./",
-  "name": "英语单词复习手册",
-  "short_name": "英语复习",
-  "description": "英语单词双向抽查、随机练习与复习词库",
+  "name": "单词书",
+  "short_name": "单词书",
+  "description": "每天自动安排今日新学与复习单词，支持中英双向抽查、错题本与学习统计",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f7fb",
-  "theme_color": "#eef2ff",
+  "background_color": "#f7fbf8",
+  "theme_color": "#5b9f7c",
   "orientation": "any",
   "icons": [
     {
